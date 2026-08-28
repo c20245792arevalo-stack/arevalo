@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body> 
+    <script> 
+        let name;
+        let age;
+        let course;
+        let grade;
+       const students = [
+    {
+        name: "Juan",
+        age: 18,
+        course: "BSIT",
+        grade: 92
+    },
+    {
+        name: "Maria",
+        age: 19,
+        course: "BSCS",
+        grade: 85
+    },
+    {
+        name: "Pedro",
+        age: 18,
+        course: "BSIT",
+        grade: 74
+    },
+    {
+        name: "Ana",
+        age: 20,
+        course: "BSIS",
+        grade: 65
+    }
+];
+console.log ("name:" + students[0].name);
+console.log ("age:" + students[0].age);
+console.log ("course:" + students[0].course);
+console.log ("grade:" +students[0].grade);
+```
+</body>
+    </script>
+}
+//# Task 2 – Create a Function with `if` Statements
+
+function getStatus(grade){
+    if (grade >=90 && <=100)
+    return("excellent")   
+}else if{ 
+    (grade(studentGrade = >=75 && grade <=89))
+    return "passed";
+}else{
+    return "failed";
+}
+
+console.log(getStatus(95));
+console.log(getStatus(80));
+console.log(getStatus(70));
+
+//Task 3 – Process Students Using a `for` Loop
+
+for (let i = 0; i < students.length; i++) {
+    console.log (students[i].name + " " + students[i].age + 
+    students[i].course) + " " + students[i].grade); 
+}
+
+//# Task 4 – Create an Arrow Function
+const getMessage = (name, status) => {
+    console.log(getMessage("Juan", "Excellent"));    
+}
