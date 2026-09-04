@@ -18,8 +18,11 @@ function greet(greetings, names = []) {
 }
 console.log(greet("Maayong aga", ["Wency", "Bai", "Soy", "Tol", "Erp"]));
 
-const heading = document.querySelector("title");
+const heading = document.querySelector("h1");
 heading.textContent = "Melvin Arevalo";
+heading.style.color = "purple";
+heading.style.fontSize = "100px";
+heading.style.backgroundColor = "yellow";
 console.log(heading.textContent);
 
 const contactHeading = document.querySelector("#contact h2");
